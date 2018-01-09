@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '27.0.2'
     defaultConfig {
         applicationId "example.com.sunshine"
         minSdkVersion 16
@@ -23,6 +23,7 @@ android {
     }
     repositories {
         jcenter()
+        maven { url 'https://maven.google.com' }
     }
 }
 android {
